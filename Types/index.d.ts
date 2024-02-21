@@ -22,7 +22,7 @@ declare type AddImageParams = {
     image: {
         title: string;
         publicId: string;
-        transformationType: string;
+        transformationType: String;
         width: number;
         height: number;
         config: any;
@@ -41,7 +41,7 @@ declare type UpdateImageParams = {
         _id: string;
         title: string;
         publicId: string;
-        transformationType: string;
+        transformationType: String;
         width: number;
         height: number;
         config: any;
@@ -129,7 +129,7 @@ declare type TransformationFormProps = {
 
 declare type TransformedImageProps = {
     image: any;
-    type: string;
+    type: String;
     title: string;
     transformationConfig: Transformations | null;
     isTransforming: boolean;
