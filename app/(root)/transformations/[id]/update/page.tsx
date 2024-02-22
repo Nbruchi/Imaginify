@@ -5,7 +5,7 @@ import Header from "@/components/shared/Header";
 import TransformationForm from "@/components/shared/TransformationForm";
 import { transformationTypes } from "@/constants";
 import { getUserById } from "@/lib/actions/user.actions";
-import { getImageById } from "@/lib/actions/image.action";
+import { getImageById } from "@/lib/actions/image.actions";
 
 const TransformationUpdatePage = async ({
     params: { id },
