@@ -19,7 +19,7 @@ export const handleError = (error: unknown) => {
     } else if (typeof error === "string") {
         // This is a string error message
         console.error(error);
-        throw new Error(`Error: ${error}`);
+        throw new Error(`Caught Error: ${error}`);
     } else {
         // This is an unknown type of error
         console.error(error);
